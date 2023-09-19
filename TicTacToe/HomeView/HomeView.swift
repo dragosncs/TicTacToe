@@ -19,7 +19,7 @@ struct HomeView: View {
             }
         }
         .fullScreenCover(isPresented: $viewModel.isGameViewPresentend) {
-            GameView()
+            GameView(viewModel: GameViewModel())
         }
     }
 }
