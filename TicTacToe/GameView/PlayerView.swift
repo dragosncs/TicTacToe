@@ -16,12 +16,12 @@ struct PlayerView: View {
             .resizable()
             .frame(width: 40, height: 40)
             .foregroundColor(.white)
-            .opacity(imageName  == "apple.logo" ? 0 : 1)
+            .opacity(imageName  == "applelogo" ? 0 : 1)
     }
 }
 
 struct PlayerView_Previews: PreviewProvider {
     static var previews: some View {
-        PlayerView(imageName: "apple.logo")
+        PlayerView(imageName: "applelogo")
     }
 }
