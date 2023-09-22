@@ -19,6 +19,7 @@
 		872F6CF02AB9B0A500305A2A /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872F6CEF2AB9B0A500305A2A /* LoadingView.swift */; };
 		872F6CF22AB9D33900305A2A /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872F6CF12AB9D33900305A2A /* GameViewModel.swift */; };
 		872F6CF42AB9D85100305A2A /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872F6CF32AB9D85100305A2A /* GameModel.swift */; };
+		872F6CF72ABDA69000305A2A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872F6CF62ABDA68F00305A2A /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		872F6CEF2AB9B0A500305A2A /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		872F6CF12AB9D33900305A2A /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
 		872F6CF32AB9D85100305A2A /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		872F6CF62ABDA68F00305A2A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				872F6CF32AB9D85100305A2A /* GameModel.swift */,
+				872F6CF62ABDA68F00305A2A /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				872F6CF02AB9B0A500305A2A /* LoadingView.swift in Sources */,
 				872F6CE82AB8A51800305A2A /* HomeViewModel.swift in Sources */,
 				872F6CD42AB8A10C00305A2A /* TicTacToeApp.swift in Sources */,
+				872F6CF72ABDA69000305A2A /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
